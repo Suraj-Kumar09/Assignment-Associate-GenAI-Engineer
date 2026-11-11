@@ -1,0 +1,135 @@
+{
+  "runs": [
+    {
+      "run_id": "20261111-115615-922683",
+      "status": "APPROVED",
+      "attempts": [
+        {
+          "attempt": "Initial generation",
+          "result": "PASS",
+          "checkpoints": {
+            "accuracy": "PASS",
+            "beginner_friendly": "PASS",
+            "examples": "PASS",
+            "jargon_explanation": "PASS",
+            "completeness": "PASS",
+            "teaching_flow": "PASS"
+          },
+          "failed_checkpoints": [],
+          "failure_reasons": {},
+          "improvement_made": "initial draft"
+        }
+      ]
+    },
+    {
+      "run_id": "20261111-115704-008365",
+      "status": "APPROVED",
+      "attempts": [
+        {
+          "attempt": "Initial generation",
+          "result": "FAIL",
+          "checkpoints": {
+            "accuracy": "PASS",
+            "beginner_friendly": "PASS",
+            "examples": "PASS",
+            "jargon_explanation": "FAIL",
+            "completeness": "PASS",
+            "teaching_flow": "PASS"
+          },
+          "failed_checkpoints": [
+            "jargon_explanation"
+          ],
+          "failure_reasons": {
+            "jargon_explanation": "The term 'context' is listed in the rubric as a technical term that must be explained. While the lesson explains the *concept* of providing extra information to the LLM, the specific technical term 'context' is not explicitly defined in plain words the first time it appears. To fix this, explicitly state something like, 'This extra information given to the LLM is often called 'context'.' and then define it."
+          },
+          "improvement_made": "initial draft"
+        },
+        {
+          "attempt": "Retry 1",
+          "result": "PASS",
+          "checkpoints": {
+            "accuracy": "PASS",
+            "beginner_friendly": "PASS",
+            "examples": "PASS",
+            "jargon_explanation": "PASS",
+            "completeness": "PASS",
+            "teaching_flow": "PASS"
+          },
+          "failed_checkpoints": [],
+          "failure_reasons": {},
+          "improvement_made": "Explicitly defined 'context' in the \"How does RAG work?\" section and referenced it in the summary."
+        }
+      ]
+    },
+    {
+      "run_id": "20261111-115748-778069",
+      "status": "APPROVED",
+      "attempts": [
+        {
+          "attempt": "Initial generation",
+          "result": "FAIL",
+          "checkpoints": {
+            "accuracy": "PASS",
+            "beginner_friendly": "PASS",
+            "examples": "PASS",
+            "jargon_explanation": "FAIL",
+            "completeness": "PASS",
+            "teaching_flow": "PASS"
+          },
+          "failed_checkpoints": [
+            "jargon_explanation"
+          ],
+          "failure_reasons": {
+            "jargon_explanation": "The technical term 'prompt' is used without an explicit explanation in plain words the first time it appears. To fix, add a clear, simple definition for 'prompt' when it is first introduced."
+          },
+          "improvement_made": "initial draft"
+        },
+        {
+          "attempt": "Retry 1",
+          "result": "PASS",
+          "checkpoints": {
+            "accuracy": "PASS",
+            "beginner_friendly": "PASS",
+            "examples": "PASS",
+            "jargon_explanation": "PASS",
+            "completeness": "PASS",
+            "teaching_flow": "PASS"
+          },
+          "failed_checkpoints": [],
+          "failure_reasons": {},
+          "improvement_made": "Expanded the definition of 'prompt' in the \"How does RAG work?\" section to be more explicit and separated from its usage, directly addressing the feedback."
+        }
+      ]
+    }
+  ],
+  "failure_counts": {
+    "accuracy": 0,
+    "beginner_friendly": 0,
+    "examples": 0,
+    "jargon_explanation": 2,
+    "completeness": 0,
+    "teaching_flow": 0
+  },
+  "reasons": {
+    "accuracy": [],
+    "beginner_friendly": [],
+    "examples": [],
+    "jargon_explanation": [
+      "The term 'context' is listed in the rubric as a technical term that must be explained. While the lesson explains the *concept* of providing extra information to the LLM, the specific technical term 'context' is not explicitly defined in plain words the first time it appears. To fix this, explicitly state something like, 'This extra information given to the LLM is often called 'context'.' and then define it.",
+      "The technical term 'prompt' is used without an explicit explanation in plain words the first time it appears. To fix, add a clear, simple definition for 'prompt' when it is first introduced."
+    ],
+    "completeness": [],
+    "teaching_flow": []
+  },
+  "fixes": {
+    "accuracy": [],
+    "beginner_friendly": [],
+    "examples": [],
+    "jargon_explanation": [
+      "Explicitly defined 'context' in the \"How does RAG work?\" section and referenced it in the summary.",
+      "Expanded the definition of 'prompt' in the \"How does RAG work?\" section to be more explicit and separated from its usage, directly addressing the feedback."
+    ],
+    "completeness": [],
+    "teaching_flow": []
+  }
+}

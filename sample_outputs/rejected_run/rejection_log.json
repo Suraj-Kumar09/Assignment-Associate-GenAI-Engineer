@@ -1,0 +1,70 @@
+{
+  "run_id": "20261111-050853-731850",
+  "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+  "final_status": "REJECTED",
+  "attempts": [
+    {
+      "attempt": "Initial generation",
+      "result": "FAIL",
+      "checkpoints": {
+        "accuracy": "PASS",
+        "beginner_friendly": "PASS",
+        "examples": "FAIL",
+        "jargon_explanation": "FAIL",
+        "completeness": "PASS",
+        "teaching_flow": "PASS"
+      },
+      "failed_checkpoints": [
+        "examples",
+        "jargon_explanation"
+      ],
+      "failure_reasons": {
+        "examples": "Only one practical example provided; a second is required.",
+        "jargon_explanation": "Jargon 'embedding' and 'vector database' used without explanation."
+      },
+      "improvement_made": "initial draft"
+    },
+    {
+      "attempt": "Retry 1",
+      "result": "FAIL",
+      "checkpoints": {
+        "accuracy": "PASS",
+        "beginner_friendly": "PASS",
+        "examples": "FAIL",
+        "jargon_explanation": "FAIL",
+        "completeness": "PASS",
+        "teaching_flow": "PASS"
+      },
+      "failed_checkpoints": [
+        "examples",
+        "jargon_explanation"
+      ],
+      "failure_reasons": {
+        "examples": "Only one practical example provided; a second is required.",
+        "jargon_explanation": "Jargon 'embedding' and 'vector database' used without explanation."
+      },
+      "improvement_made": "mock: applied evaluator feedback / memory hints"
+    },
+    {
+      "attempt": "Retry 2",
+      "result": "FAIL",
+      "checkpoints": {
+        "accuracy": "PASS",
+        "beginner_friendly": "PASS",
+        "examples": "FAIL",
+        "jargon_explanation": "FAIL",
+        "completeness": "PASS",
+        "teaching_flow": "PASS"
+      },
+      "failed_checkpoints": [
+        "examples",
+        "jargon_explanation"
+      ],
+      "failure_reasons": {
+        "examples": "Only one practical example provided; a second is required.",
+        "jargon_explanation": "Jargon 'embedding' and 'vector database' used without explanation."
+      },
+      "improvement_made": "mock: applied evaluator feedback / memory hints"
+    }
+  ]
+}
